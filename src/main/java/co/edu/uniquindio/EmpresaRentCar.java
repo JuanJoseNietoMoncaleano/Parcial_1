@@ -15,6 +15,7 @@ public class EmpresaRentCar {
     private List<Cliente> clientes;
     private List<Vehiculo> vehiculos;
     private List<ServicioAdicional> serviciosAdicionales;
+    private List<ModalidadAlquiler> modalidades;
 
     // Instancia estática única (Patrón Singleton)
     private static EmpresaRentCar instance;
@@ -27,7 +28,7 @@ public class EmpresaRentCar {
         this.telefono = "3117894561";
         this.correo = "contacto@rentcar.com.co";
         this.paginaWeb = "www.rentcar.com.co";
-
+        this.modalidades = new ArrayList<>();
         this.clientes = new ArrayList<>();
         this.vehiculos = new ArrayList<>();
         this.serviciosAdicionales = new ArrayList<>();
@@ -53,4 +54,6 @@ public class EmpresaRentCar {
     public List<Cliente> getClientes() { return clientes; }
     public List<Vehiculo> getVehiculos() { return vehiculos; }
     public List<ServicioAdicional> getServiciosAdicionales() { return serviciosAdicionales; }
-}
+    public List<ModalidadAlquiler> getModalidades() { return modalidades; }
+
+    }
