@@ -126,7 +126,7 @@
 
                                 <HBox alignment="CENTER_LEFT" spacing="15.0" styleClass="panel-borde">
                                     <children>
-                                        <Button onAction="#crearReserva" text="Liquidary Guardar Reserva" />
+                                        <Button onAction="#crearReserva" text="Liquidar y Guardar Reserva" />
                                         <Label fx:id="lblTotalLiquidado" text="Total Liquidado: $0.00" />
                                     </children>
                                 </HBox>
