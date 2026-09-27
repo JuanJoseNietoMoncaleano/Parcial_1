@@ -1,7 +1,5 @@
 package repository;
 
-package repository;
-
 import co.edu.uniquindio.Cliente;
 import co.edu.uniquindio.EmpresaRentCar;
 import java.util.List;
