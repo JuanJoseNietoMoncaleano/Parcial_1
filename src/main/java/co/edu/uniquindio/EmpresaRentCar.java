@@ -16,6 +16,7 @@ public class EmpresaRentCar {
     private List<Vehiculo> vehiculos;
     private List<ServicioAdicional> serviciosAdicionales;
     private List<ModalidadAlquiler> modalidades;
+    private List<Reserva> reservas;
 
     // Instancia estática única (Patrón Singleton)
     private static EmpresaRentCar instance;
@@ -32,6 +33,7 @@ public class EmpresaRentCar {
         this.clientes = new ArrayList<>();
         this.vehiculos = new ArrayList<>();
         this.serviciosAdicionales = new ArrayList<>();
+        this.reservas = new ArrayList<>();
     }
 
     // Punto de acceso global a la instancia única
@@ -55,5 +57,5 @@ public class EmpresaRentCar {
     public List<Vehiculo> getVehiculos() { return vehiculos; }
     public List<ServicioAdicional> getServiciosAdicionales() { return serviciosAdicionales; }
     public List<ModalidadAlquiler> getModalidades() { return modalidades; }
-
+    public List<Reserva> getReservas() { return reservas; }
     }
